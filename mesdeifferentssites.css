@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
 }
                 /*Partie Block de navigation*/
@@ -113,42 +112,28 @@
 
 /* Background*/
 /* Différents sites */
-section {
-    text-align: center;
-}
+
 img{
-    display: flex;
     float: right;
-    width: 750px;
-    height: 375px;
+    width: 50%;
     margin: 0.5em;
+    padding: 2%;
     border-radius: 10px;
 }
-ul{
-    text-align:center;
-    font-size: 2em;
-    
-}
+
+
 li{
-    position: absolute;
+    display: inline-block;
     text-align: center;
-    display:inline-block;
-    
+    font-size: 2em;
 }
 .boite{
-    display: flex;
-    position: absolute;
-    height: 50%;
     width: 96%;
     margin: 2%;
     background-color: rgba(0, 0, 0, 0.205);
-    
 }
 .boite2{
-    display: flex;
-    position: absolute;
     top: 60%;
-    height: 50%;
     width: 96%;
     margin: 2%;
     background-color: rgba(0, 0, 0, 0.205);
@@ -156,7 +141,6 @@ li{
 h1{
     margin: 2%;
     color: white;
-    text-decoration: none;
     font-size: 2em;
     font-family:century;
 }
@@ -183,18 +167,11 @@ p{
     }
 }
 @media screen and (max-width: 1080px){
-    .boite{
-        height: 70%;
-    }
+    
     img{
-        width: 97%;
-        float: left;
+        width: 90%;
         margin: 2%;
-    }
-    .boite2{
-        top: 80%;
-        height: 70%;
-    }
+  
 }
 @media screen and (max-width: 640px){
     h1{
