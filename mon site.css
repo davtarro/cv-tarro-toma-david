@@ -1,0 +1,816 @@
+*{
+
+    list-style: none;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+}
+body{
+    margin: 0%;
+}
+/* Début mise en forme Contact */
+
+
+
+.introsite{    
+    height: 100%;
+    position: relative;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    width: 245px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow:  9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+    line-height: 25px;
+}
+
+
+
+.contact::before{
+    content: "Contact";
+    position: absolute;
+    top:10px;
+    left: 90px;
+    padding: 2px 10px;
+    color: lightslategrey;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid #dde1e7;
+     box-shadow:  6px 6px 9px #C9CDD2,  -6px -6px 9px #F1F5FC;
+    display: block;
+    
+}
+
+
+
+/* Fin mise en forme Contact */
+
+
+ul,li
+	{
+		color: darkslategray;
+		list-style-type: none;
+					
+	}
+h2,h3
+	{
+		font-style: italic;
+	}
+
+
+h1,h2,h3,p
+	{
+		text-align: center;
+		font-family: "trebuchet ms";
+	}
+.intro
+	{
+		color: #6d7587;
+		text-align: left;
+		font-family: arial;
+        transition: 0.5s;
+	}
+.photoprofil
+	{
+		border: 2px black solid;
+		border-radius: 25% 10%;
+		box-shadow: 1px 1px 15px black;
+		margin-right: 50px;
+        background: #dde1e7;
+        box-shadow:  5px 5px 16px #b1b4b9,
+             -5px -5px 16px #ffffff;
+        transition-duration: 3s;
+     
+	}
+.photoprofil:hover{
+    background: #dde1e7;
+     box-shadow: -5px -5px 16px #ffffff,
+         5px 5px 16px #b1b4b9;
+    cursor: default; transform: rotate3d(0, 5, 0.5, 3.142rad);
+    transition-duration: 1.5s;
+    
+}
+.dev
+{
+		clear: left;
+		background: #dde1e7;
+        box-shadow:  5px 5px 14px #c5c8ce,
+                    -5px -5px 14px #f5faff;
+        border-radius: 100% 100% 100% 100%;
+		color: darkslategray;
+	}
+body
+	{
+         
+        
+		background-color: 	#dde1e7;
+        height: 100vh;
+        
+	}
+
+
+
+h3{
+	
+		
+        color: darkslategray;
+        
+         
+	}
+h1
+	{
+		background: #dde1e7;
+		border-radius: 100% 100% 100% 100%;
+        color: #6d7587;
+        
+	}
+h1:hover{
+        cursor: pointer;
+    }
+    
+a:hover{
+  color:red;
+}
+
+a:active{
+	color: purple;
+}
+
+
+/* Cercle de progression */
+
+
+/* Fin 1er cercle de progression */
+
+.link{	
+	border: 0px black solid;
+    border-radius: 15% 50% 50% 50%;
+    background: #dde1e7;
+    box-shadow:9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+     top: 85px;
+    left: 125px;
+    margin-top: 15px;
+    transition: 0.5s;
+     
+}
+
+.maile{
+	box-shadow: 3px 2px 8px grey;
+	border-radius: 15% 50% 50% 50%;
+	background: #dde1e7;
+    box-shadow:  9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+   transition: 0.5s;
+    top: -70px;
+    left: 200px;
+}
+
+.link:hover{
+    border-radius: 15% 50% 50% 50%;
+background: #dde1e7;
+box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC, inset 9.91px 9.91px 15px #C9CDD2, inset -9.91px -9.91px 15px #F1F5FC;
+
+}
+.maile:hover{
+     border-radius: 15% 50% 50% 50%;
+background: #dde1e7;
+box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC, inset 9.91px 9.91px 15px #C9CDD2, inset -9.91px -9.91px 15px #F1F5FC;
+  
+}
+
+/* Cercle de progression1*/
+
+.name{
+    display: flex;
+    flex-direction: column;
+    color: #6d7587;
+    font-size: 1.3em;
+    font-weight: 100;
+   height: 300px;
+    width: 190px;
+    margin-right: 40px;
+   
+}
+
+ .skill {
+    display: flex;
+    border: 2px solid #dde1e7;
+    padding-top:3%;
+    border-radius: 20px;
+    width: 777px;
+    height: 360px;
+    position: absolute;
+    top:90px;
+    left:300px;
+    box-shadow:  9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+    margin: 2%;
+    transition: 0.5s;
+}
+
+
+.skill::before{
+    display: flex;
+    content: "Mes compétences";
+    position: absolute;
+    float: center;
+    top:10px;
+    height: 15px;
+    width: 122px;
+    left: 45%;
+    padding: 0.5%;
+    color: lightslategrey;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid #dde1e7;
+     box-shadow:  6px 6px 9px #C9CDD2,  -6px -6px 9px #F1F5FC;
+}
+
+   
+
+
+ span{
+     display: flex;
+     position: relative;
+    margin: 15px 15px;
+    padding: 5px;
+    padding-right: 40px;
+    text-align: center;
+    border-radius: 15px;
+    background: #dde1e7;
+    box-shadow:  9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+    border: 5px solid #dde1e7;
+    transition: 0.5s;
+    cursor: pointer;
+     width: 180px;
+     left: 20px;
+}
+span:hover {
+    color: rgba(95,130,255,1);
+    box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC, inset 9.91px 9.91px 15px #C9CDD2, inset -9.91px -9.91px 15px #F1F5FC;
+}
+
+.bar{
+    transition: 0.5s;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: inset 6px 6px 6px #c9cdd2, inset -6px -6px 6px #f1f5fc;    
+}
+
+.bar-container {
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    height: 315px;
+    position: absolute;
+    left: 230px;
+    top:15px;
+   
+}
+
+
+
+.progress1 { /* progression Html */ 
+    
+   height: 100%;
+    width: 0%;
+    background: linear-gradient( to right,rgba(95,130,255,1) 0%, rgba(152,220,255,1));
+    border-radius: 20px;
+    animation: progress1 5s forwards;
+
+}
+
+@keyframes progress1{
+    100%{
+        width: 80%;
+    }
+}
+.progress2 { /* progression css */ 
+    
+   height: 100%;
+    width: 0%;
+    background: linear-gradient( to right,rgba(95,130,255,1) 0%, rgba(152,220,255,1));
+    border-radius: 20px;
+    animation: progress2 5s forwards;
+   
+}
+
+@keyframes progress2{
+    100%{
+        width: 50%;
+    }
+}
+
+.progress3 { /* progression JS */ 
+    
+   height: 100%;
+    width: 0%;
+    background: linear-gradient( to right,rgba(95,130,255,1) 0%, rgba(152,220,255,1));
+    border-radius: 20px;
+   animation: progress3 5s forwards;
+}
+
+@keyframes progress3{
+    100%{
+        width: 25%;
+    }
+}
+
+.progress4 { /* progression WordPress */ 
+    
+   height: 100%;
+    width: 0%;
+    background: linear-gradient( to right,rgba(95,130,255,1) 0%, rgba(152,220,255,1));
+    border-radius: 20px;
+    animation: progress4 5s forwards;
+}
+
+@keyframes progress4{
+    100%{
+        width: 30%;
+        
+    }
+}
+
+
+.quatrevingt{
+    position: absolute;
+    font-size: 20px;
+    left: 700px;
+    top: 26px;
+    border: 2px solid #dde1e7;
+    border-radius: 15px;
+    padding: 5px 5px;
+   box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+    color: lightslategrey;
+    transition: 0.5s;
+}
+.quatrevingt:hover{
+        color: rgba(95,130,255,1);
+    box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC, inset 9.91px 9.91px 15px #C9CDD2, inset -9.91px -9.91px 15px #F1F5FC;
+    cursor: pointer;
+}
+.cinquante{
+    position: absolute;
+    font-size: 20px;
+    left: 700px;
+    top: 99px;
+    border: 2px solid #dde1e7;
+    border-radius: 15px;
+    padding: 5px 5px;
+box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+    color: lightslategrey;
+    transition: 0.5s;
+}
+.cinquante:hover{
+        color: rgba(95,130,255,1);
+    box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC, inset 9.91px 9.91px 15px #C9CDD2, inset -9.91px -9.91px 15px #F1F5FC;
+    cursor: pointer;
+}
+.vingtcinq{
+    position: absolute;
+    font-size: 20px;
+    left: 700px;
+    top: 173px;
+    border: 2px solid #dde1e7;
+    border-radius: 15px;
+    padding: 5px 5px;
+   box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+    color: lightslategrey;
+    transition: 0.5s;
+}
+.vingtcinq:hover{
+        color: rgba(95,130,255,1);
+    box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC, inset 9.91px 9.91px 15px #C9CDD2, inset -9.91px -9.91px 15px #F1F5FC;
+    cursor: pointer;
+}
+.trent{
+    position: absolute;
+    font-size: 20px;
+    left: 700px;
+    top: 247px;
+    border: 2px solid #dde1e7;
+    border-radius: 15px;
+    padding: 5px 5px;
+box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+    color: lightslategrey;
+    transition: 0.5s;
+    
+}
+
+.trent:hover{
+        color: rgba(95,130,255,1);
+    box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC, inset 9.91px 9.91px 15px #C9CDD2, inset -9.91px -9.91px 15px #F1F5FC;
+    cursor: pointer;
+}
+
+
+
+
+
+  /* Fin Cercle de progression1*/
+
+.partiepro::before{
+    content: "Professionnel";
+    position: absolute;
+    float: center;
+    top:35px;
+    left: 37%;
+    padding: 2px 10px;
+    color: lightslategrey;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid #dde1e7;
+     box-shadow:  6px 6px 9px #C9CDD2,  -6px -6px 9px #F1F5FC;
+    
+}
+.paragraphe{
+    display: flex;
+    position: relative;
+    padding-top: 10%;
+    padding-right: 5%;
+    margin-right: 3%;
+    margin-left:1%;
+    margin-top:none;
+    margin-bottom:1%;
+      border-radius: 20px;
+   border: dashed #C5C8CD;
+}
+
+.partiepro {
+    display: flex;
+    position: absolute;
+   margin: 2%;
+    padding: 1%;
+    height: 410px;
+    width: 455px;
+     border-radius: 20px;
+      box-shadow:  9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+    line-height: 25px;
+    top:500px;
+    left:500px;
+    transition: 0.5s;
+}
+
+.scolaire {
+    top: 122px;
+    left: 1050px;
+    display: flex;
+    position: absolute;
+    height: 360px;
+    width: 300px;
+    margin-left: 150px;
+     border-radius: 20px;
+      box-shadow:  9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+    line-height: 25px; 
+    transition: 0.5s;
+}
+
+
+.scolairetitre{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 70px;
+    padding: 10px;
+    margin-top: 5%;
+    left:105px;
+    text-align:center;
+     color: lightslategrey;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid #dde1e7;
+     box-shadow:  6px 6px 9px #C9CDD2,  -6px -6px 9px #F1F5FC;
+}
+
+
+.text{
+    position: relative;
+    text-align:center;
+    border-radius: 20px;
+    left: -110px;
+    top: 70px;
+    width: 300px;
+    height: 40px;
+}
+
+
+.fin{
+    text-align:center;
+    display:flex;
+    position: absolute;
+    padding: 1.7em;
+    margin: 2%;
+    top:500px;
+    left: 300px;
+    height: 400px;
+    width: 120px;
+    float: left;
+     border-radius: 20px;
+      box-shadow:  9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
+    line-height: 25px;
+    transition: 0.5s;
+}
+
+.interret{
+    position: relative;
+    margin: 2%;
+    left: -120px;
+    display: inline;
+
+}
+
+.interete{
+        display: flex;
+    position: relative;
+    height: 35px;
+    left: 0px;
+    top:-20px;
+    padding: 2%;
+    margin: 4%;
+    color: lightslategrey;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 2px solid #dde1e7;
+     box-shadow:  6px 6px 9px #C9CDD2,  -6px -6px 9px #F1F5FC;
+}
+
+.informatique{
+    display: flex;
+    position: relative;
+    left:20px;
+    top: 10px;
+    height: 48px;
+}
+
+.nature{
+    display: flex;
+    position: relative;
+    height: 48px;
+    left: 20px;
+    top: 10px;
+}
+
+.photographie{
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+a{
+    text-decoration:none;
+    display: flex;
+    position: relative;
+    text-align: center;
+    
+    
+}
+
+.icons8-modifier { 
+display: inline-block;
+    position: absolute;
+width: 80px;
+height: 80px;
+left: 210px;
+top:25px;
+}
+
+.photopro{
+    display: flex;
+    position: absolute;
+    height:75px;
+    top: 25px;
+    left: 25px
+}
+
+.imagehtml{
+    display: flex;
+    position: relative;
+    left: 90px;
+    top: 13px;
+    height: 40px;
+    margin: -20px;
+    transition: 0.5s;
+}
+
+.imagecss{
+    display: flex;
+    position: relative;
+    height: 35px;
+    top:12px;
+    left: 110px;
+    margin: -17px;
+    transition: 0.5s;
+}
+.javaimage{
+        display: flex;
+    position: relative;
+    height: 34px;
+    top:12px;
+    left: 26px;
+    margin: -17px;
+    transition: 0.5s;
+}
+
+.wordpress{
+        display: flex;
+    position: relative;
+    height: 40px;
+    top:12px;
+    left: 59px;
+    margin: -20px;
+    transition: 0.5s;
+}
+
+.iconsource{
+    display: flex;
+    position: absolute;
+    
+   
+    
+}
+.source{
+    display: flex;
+    position: relative;
+    margin: 1%;
+    bottom: 1%;
+    transition: 0.5s;
+    top: 10%;
+}
+
+.blocknav{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    width: 105%;
+    position: sticky;
+    z-index: 1;
+}
+.blocknav ul1{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.blocknav ul1 li1{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.blocknav ul1 li1 a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.blocknav ul1 li1 a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+@media screen and (max-width: 1500px){
+    .scolaire{ 
+        top: 525px;
+        left: 851px;
+    }
+}
+
+@media screen and (max-width: 1315px){
+    .scolaire{ 
+        top: 525px;
+        left: 650px;
+    }
+    
+    .fin{
+        top: 820px;
+        left:50px;
+        }
+    .source{
+        bottom: 1%;
+        }
+    .partiepro{
+        left: 270px;
+    } 
+    .source{
+        
+        top:58%;
+    }
+}
+@media screen and (max-width: 1115px){
+    .partiepro{
+        left: 270px;
+        top: 85px;
+    }  
+    .scolaire{ 
+        top: 540px;
+        left: 150px;
+    } 
+    .skill{
+        top: 900px;
+        left: 1%;
+    }
+    .fin{
+        top: 1300px;
+        left:50px;
+    }
+    .source{ 
+        top:128%;
+    }
+}
+@media screen and (max-width: 815px){
+
+    .introsite{
+        height: 750px;
+    }
+    .skill{
+        width: 90%;
+    }
+    .bar{
+        width: 20%;
+    }
+    
+    .bar-container {
+        width: 200%;
+        left: 40%;
+    }
+    span{
+        width: 100%;
+        margin-top: 15px;
+        padding-left: 0px;
+    }
+    .name{
+        width: 27%;
+    }
+    .skill::before{
+        left: 35%;
+    }
+    .quatrevingt{
+        left: 85%;
+    }
+    .cinquante{
+        left: 85%;
+    }
+    .vingtcinq{
+        left:85%;
+    }
+    .trent{
+        left: 85%;
+    }
+    .imagehtml{
+        left: -80px;
+        top:15px;
+    }
+    .imagecss{
+        left: -60px;
+    }
+    .javaimage{
+        left: -110%;
+        top: 20px;
+    }
+    .wordpress{
+        left: -110px;
+    }
+    .source{
+        
+        top:125%;
+    }
+}
+@media screen and (max-width: 759px){
+    .partiepro{
+        top: 1100px;
+        left:2%;
+    }
+    .fin{
+        top: 1950px;
+        left: 25%;
+    }
+    .scolaire{
+        top: 1550px;
+        left:-7%;
+    }
+    .source{
+        
+        top:245%;
+    }
+    .introsite{
+        left: 1%;
+        height: 75%;
+        width: 90%;
+        animation: 0.5s;
+    }
+    .skill{
+        top: 690px;
+    }
+    .contact::before{
+        left: 45%;
+    }
+}
