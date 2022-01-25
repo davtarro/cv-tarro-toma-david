@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.205);
     top: 0;
     position: sticky;
     z-index: 1;
@@ -120,10 +120,6 @@ img{
     padding: 2%;
     border-radius: 50px;
 }
-a{
-    
-}
-
 li{
     display: inline-block;
     text-align: center;
