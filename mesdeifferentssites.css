@@ -114,6 +114,7 @@
 /* Différents sites */
 
 img{
+    
     float: right;
     width: 50%;
     margin: 0.5em;
@@ -126,19 +127,29 @@ li{
     font-size: 2em;
 }
 .boite{
+    text-align: center;
     position: relative;
     width: 96%;
     margin: 2%;
     background-color: rgba(0, 0, 0, 0.205);
 }
 .boite2{
+    text-align: center;
     position: relative;
     top: 60%;
     width: 96%;
     margin: 2%;
     background-color: rgba(0, 0, 0, 0.205);
 }
+.boite3{
+    text-align: center;
+    position: relative;
+    width: 96%;
+    margin: 2%;
+    background-color: rgba(0, 0, 0, 0.205);
+}
 h1{
+    text-align: center;
     margin: 2%;
     color: white;
     font-size: 2em;
@@ -202,10 +213,10 @@ p{
         top: 60%;
     }
     h1{
-      font-size: 0.8em;  
+      font-size: 0.6em;  
     }
     p{
-        font-size: 18.5px;
+        font-size: 17.5px;
     }
     img{
         height: 50%;
