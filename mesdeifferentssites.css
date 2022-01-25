@@ -120,7 +120,9 @@ img{
     padding: 2%;
     border-radius: 10px;
 }
-
+a{
+    
+}
 
 li{
     display: inline-block;
@@ -128,11 +130,13 @@ li{
     font-size: 2em;
 }
 .boite{
+    position: relative;
     width: 96%;
     margin: 2%;
     background-color: rgba(0, 0, 0, 0.205);
 }
 .boite2{
+    position: relative;
     top: 60%;
     width: 96%;
     margin: 2%;
