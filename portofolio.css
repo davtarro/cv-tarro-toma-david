@@ -63,8 +63,53 @@ p{
     font-family: 'poppins',sans-serif;
     transition: 0.5s;
 }
-
                         /* Fin background page */
+                        /* Responsive */
+@media screen and (max-width: 1429px){
+    .pp{
+        display:none;
+    }
+}
+@media screen and (max-width: 1180px){
+    .ppp{
+        display:none;
+    }
+}
+@media screen and (max-width: 900px){
+    .pp2{
+        display:none;
+    }
+    #contact{
+       
+    }
+}
+@media screen and (max-width: 700px){
+    .pp3{
+        display:none;
+    }
+}
+@media screen and (max-width: 500px){
+    .pp4{
+        display: none;
+    }
+}
+@media screen and (max-width: 400px){
+    .pp5{
+        display: none;
+    }
+}
+@media screen and (max-width: 300px){
+    .pp6{
+        display: none;
+    }
+}
+@media screen and (max-width: 200px){
+    .pp7{
+        display: none;
+    }
+}
+
+
 
                         /* Section Contact*/
 
@@ -76,9 +121,9 @@ p{
     background-color: black;
     color:white;
     top: 35%;
-    left:31%;
+    left:21%;
     padding: 20px;
-    width: 40%;
+    width: 60%;
     
 }
 
@@ -93,7 +138,7 @@ p{
 .input{
     padding: 12px;
     margin: 15px;
-    width: 150px;
+    width: 40%;
     border: none;
     outline: none;
 }
@@ -106,7 +151,7 @@ p{
 }
 #send{
     padding: 2%;
-    width: 70px;
+    width: 50%;
     margin: 40px;
     border: none;
     outline: none;
@@ -114,7 +159,8 @@ p{
 
 #send:hover{
     cursor:pointer;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 h1 {
