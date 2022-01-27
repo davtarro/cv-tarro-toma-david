@@ -718,15 +718,15 @@ top:25px;
         left: 150px;
     } 
     .skill{
-        top: 900px;
+        top: 950px;
         left: 1%;
     }
     .fin{
-        top: 1300px;
-        left:50px;
+        top: 520px;
+        left:610px;
     }
     .source{ 
-        top:128%;
+        top:110%;
     }
     .introsite{
         height: 750px;
@@ -787,7 +787,7 @@ top:25px;
     }
     .source{
         
-        top:125%;
+        top:110%;
     }
 }
 @media screen and (max-width: 759px){
@@ -805,7 +805,7 @@ top:25px;
     }
     .source{
         
-        top:245%;
+        top:210%;
     }
     .introsite{
         left: 1%;
@@ -814,7 +814,7 @@ top:25px;
         animation: 0.5s;
     }
     .skill{
-        top: 690px;
+        top: 710px;
     }
     .contact::before{
         left: 45%;
