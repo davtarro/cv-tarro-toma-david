@@ -216,13 +216,13 @@ box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC, inset 9.9
     content: "Mes compétences";
     position: absolute;
     float: center;
-    top:10px;
+    top:8px;
     height: 15px;
     width: 122px;
     left: 45%;
-    padding: 0.5%;
+    padding: 0.3em;
     color: lightslategrey;
-    font-size: 17px;
+    font-size: 15px;
     border-radius: 10px;
     border: 1px solid #dde1e7;
      box-shadow:  6px 6px 9px #C9CDD2,  -6px -6px 9px #F1F5FC;
@@ -782,6 +782,7 @@ top:25px;
     .wordpress{
         left: -110px;
     }
+
 }
 @media screen and (max-width: 759px){
     .partiepro{
