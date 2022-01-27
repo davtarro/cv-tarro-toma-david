@@ -105,11 +105,7 @@ h1,h2,h3,p
 	}
 body
 	{
-         
-        
-		background-color: 	#dde1e7;
-        height: 100vh;
-        
+		background-color: 	#dde1e7;  
 	}
 
 
@@ -625,10 +621,7 @@ top:25px;
 
 .iconsource{
     display: flex;
-    position: absolute;
-    
-   
-    
+    position: absolute; 
 }
 .source{
     display: flex;
@@ -636,7 +629,7 @@ top:25px;
     margin: 1%;
     bottom: 1%;
     transition: 0.5s;
-    top: 10%;
+    bottom: 1em;
 }
 
 .blocknav{
@@ -689,15 +682,11 @@ top:25px;
         top: 820px;
         left:50px;
         }
-    .source{
-        bottom: 1%;
-        }
     .partiepro{
         left: 270px;
     } 
     .source{
-        
-        top:58%;
+        top:23%;
     }
     .introsite{
         height: 710px;
@@ -748,9 +737,6 @@ top:25px;
     .name{
         width: 27%;
     }
-    .skill::before{
-        left: 35%;
-    }
     .quatrevingt{
         left: 85%;
     }
@@ -791,10 +777,6 @@ top:25px;
     .scolaire{
         top: 1550px;
         left:-7%;
-    }
-    .source{
-        
-        top:210%;
     }
     .introsite{
         left: 1%;
