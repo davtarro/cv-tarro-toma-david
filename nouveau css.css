@@ -226,6 +226,16 @@ a:after{
 
 @media screen and (max-width:1000px){
     .card{
-      right: 20%;
+      right: 10%;
     }
+}
+@media screen and (max-width:650px){
+  .card{
+    right: 25%;
+  }
+}
+@media screen and (max-width:500px){
+  .card{
+    right: 35%;
+  }
 }
