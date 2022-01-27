@@ -722,10 +722,8 @@ top:25px;
         left: 1%;
     }
     .fin{
+        top: 520px;
         left:610px;
-    }
-    .source{ 
-        top:110%;
     }
     .introsite{
         height: 760px;
@@ -783,10 +781,6 @@ top:25px;
     }
     .wordpress{
         left: -110px;
-    }
-    .source{
-        
-        top:110%;
     }
 }
 @media screen and (max-width: 759px){
