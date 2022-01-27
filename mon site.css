@@ -722,14 +722,13 @@ top:25px;
         left: 1%;
     }
     .fin{
-        top: 520px;
         left:610px;
     }
     .source{ 
         top:110%;
     }
     .introsite{
-        height: 750px;
+        height: 760px;
     }
 }
 @media screen and (max-width: 815px){
