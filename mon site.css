@@ -404,7 +404,7 @@ box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC;
 }
 
 .trent:hover{
-        color: rgba(0, 0, 0, 0.281);
+    color: rgba(0, 0, 0, 0.281);
     box-shadow: 9.91px 9.91px 15px #C9CDD2,  -9.91px -9.91px 15px #F1F5FC, inset 9.91px 9.91px 15px #C9CDD2, inset -9.91px -9.91px 15px #F1F5FC;
     cursor: pointer;
 }
@@ -704,6 +704,9 @@ top:25px;
         
         top:58%;
     }
+    .introsite{
+        height: 710px;
+    }
 }
 @media screen and (max-width: 1115px){
     .partiepro{
@@ -724,6 +727,9 @@ top:25px;
     }
     .source{ 
         top:128%;
+    }
+    .introsite{
+        height: 750px;
     }
 }
 @media screen and (max-width: 815px){
